@@ -1,0 +1,245 @@
+.input-blue {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-55%);
+
+  width: 18px;
+  height: 18px;
+
+  color: #6b7280;
+}
+
+.input-container input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  padding: 10px 12px 10px 40px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.input-container .input2 {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  padding: 10px 10px 10px 10px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+}
+
+.input-color {
+  height: 100%;
+  background-color: white;
+}
+
+.btn-blue {
+  padding: 12px 24px;
+  font-weight: 700;
+  color: var(--vt-c-blue);
+  border-radius: 12px;
+  border: 1px solid var(--vt-c-blue);
+  background-color: white;
+}
+.btn-blue:hover {
+  background-color: var(--vt-c-blue_very_light);
+}
+.btn-blue:active {
+  color: white;
+  background-color: var(--vt-c-blue);
+}
+.btn-blue:disabled {
+  color: white;
+  background-color: var(--vt-c-gray2);
+}
+
+.btn-blue-solid {
+  padding: 12px 24px;
+  font-weight: 700;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid var(--vt-c-blue);
+  background-color: var(--vt-c-blue);
+}
+
+.btn-green {
+  padding: 12px 24px;
+  font-weight: 700;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid var(--vt-c-green);
+  background-color: var(--vt-c-green);
+}
+.btn-green:hover {
+  background-color: var(--vt-c-green_light);
+}
+.btn-green:active {
+  background-color: var(--vt-c-green_dark);
+}
+.btn-green:disabled {
+  background-color: var(--vt-c-gray2);
+}
+
+.btn-green-solid {
+  font-weight: 700;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid var(--vt-c-green);
+  background-color: var(--vt-c-green);
+}
+.btn-green-solid:hover {
+  background-color: var(--vt-c-green_light);
+}
+.btn-green-solid:active {
+  background-color: var(--vt-c-green_dark);
+}
+.btn-green-solid:disabled {
+  background-color: var(--vt-c-gray2);
+}
+
+.btn-red {
+  padding: 12px 24px;
+  font-weight: 700;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid var(--vt-c-red);
+  background-color: var(--vt-c-red);
+}
+.btn-red:hover {
+  background-color: var(--vt-c-red_light);
+}
+.btn-red:active {
+  background-color: var(--vt-c-red_dark);
+}
+.btn-red:disabled {
+  background-color: var(--vt-c-gray2);
+}
+
+.btn-red-small {
+  padding: 4px 24px;
+  font-weight: 700;
+  color: white;
+  border-radius: 12px;
+  border: 1px solid var(--vt-c-red);
+  background-color: var(--vt-c-red);
+}
+.btn-red-small:hover {
+  background-color: var(--vt-c-red_light);
+}
+.btn-red-small:active {
+  background-color: var(--vt-c-red_dark);
+}
+.btn-red-small:disabled {
+  background-color: var(--vt-c-gray2);
+}
+
+.select-blue {
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 8px;
+  border-width: 1px;
+  border: 1px solid #d1d5db;
+}
+
+.form-central {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 650px;
+  gap: 16px;
+}
+
+.fondo-categoria {
+  padding: 2px 16px 2px 8px;
+  border-radius: 16px;
+  border: none;
+}
+
+.error-input {
+  display: block;
+  margin-top: 4px;
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.input-error {
+  border: 1px solid #dc2626;
+}
+
+.form-central-comun {
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  padding: 1rem 2rem 1.5rem 2rem;
+  width: 750px;
+}
+
+.form-central-comun.inactivo {
+  border: 2px solid red;
+}
+
+@media (max-width: 1000px) {
+  .form-central-comun {
+    width: 100%;
+  }
+}
+
+.foto-form-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.foto-form {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px dashed #d1d5db;
+}
+
+.foto-form img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.foto-form-placeholder {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 10px;
+  text-align: center;
+
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  font-size: 14px;
+}
+
+.form-icon-palette {
+  height: 30px;
+  width: 30px;
+  padding: 4px;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid black;
+}

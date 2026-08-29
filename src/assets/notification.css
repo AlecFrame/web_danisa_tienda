@@ -1,0 +1,36 @@
+.notificacion {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+
+    padding: 14px 20px;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 500;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.notificacion.success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.notificacion.error {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Entrada y salida */
+.notificacion-enter-active,
+.notificacion-leave-active {
+    transition: all 0.3s ease;
+}
+
+.notificacion-enter-from,
+.notificacion-leave-to {
+    opacity: 0;
+    transform: translateY(-15px);
+}
